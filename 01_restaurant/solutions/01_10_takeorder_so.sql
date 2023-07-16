@@ -17,7 +17,7 @@ VALUES (70, '2022-09-20 14:00:00');
 
 SELECT * 
 FROM Orders 
-WHERE CustomerID = 70
+WHERE CustomerID =  70
 ORDER BY OrderDate DESC;
 
 INSERT INTO OrdersDishes (OrderID, DishID) VALUES
